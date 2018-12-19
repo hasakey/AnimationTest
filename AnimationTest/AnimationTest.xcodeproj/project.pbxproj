@@ -15,6 +15,12 @@
 		3FC6EFC321C9D78300E81971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFC221C9D78300E81971 /* main.m */; };
 		3FC6EFCD21C9D78400E81971 /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFCC21C9D78400E81971 /* AnimationTestTests.m */; };
 		3FC6EFD821C9D78400E81971 /* AnimationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFD721C9D78400E81971 /* AnimationTestUITests.m */; };
+		3FC6EFEA21C9F26600E81971 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFE821C9F26500E81971 /* NavController.m */; };
+		3FC6EFEE21CA157200E81971 /* BasicAnimController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFED21CA157200E81971 /* BasicAnimController.m */; };
+		3FC6EFF121CA330500E81971 /* KeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFF021CA330500E81971 /* KeyframeAnimation.m */; };
+		3FC6EFF421CA398F00E81971 /* DrawLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFF321CA398F00E81971 /* DrawLineController.m */; };
+		3FC6EFF721CA40D300E81971 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFF621CA40D300E81971 /* TransitionViewController.m */; };
+		3FC6EFFA21CA41E900E81971 /* SpringAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFF921CA41E900E81971 /* SpringAnimViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		3FC6EFD321C9D78400E81971 /* AnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC6EFD721C9D78400E81971 /* AnimationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTestUITests.m; sourceTree = "<group>"; };
 		3FC6EFD921C9D78400E81971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC6EFE821C9F26500E81971 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		3FC6EFE921C9F26600E81971 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		3FC6EFEC21CA157200E81971 /* BasicAnimController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicAnimController.h; sourceTree = "<group>"; };
+		3FC6EFED21CA157200E81971 /* BasicAnimController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimController.m; sourceTree = "<group>"; };
+		3FC6EFEF21CA330500E81971 /* KeyframeAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyframeAnimation.h; sourceTree = "<group>"; };
+		3FC6EFF021CA330500E81971 /* KeyframeAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyframeAnimation.m; sourceTree = "<group>"; };
+		3FC6EFF221CA398F00E81971 /* DrawLineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawLineController.h; sourceTree = "<group>"; };
+		3FC6EFF321CA398F00E81971 /* DrawLineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawLineController.m; sourceTree = "<group>"; };
+		3FC6EFF521CA40D300E81971 /* TransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		3FC6EFF621CA40D300E81971 /* TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
+		3FC6EFF821CA41E900E81971 /* SpringAnimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringAnimViewController.h; sourceTree = "<group>"; };
+		3FC6EFF921CA41E900E81971 /* SpringAnimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringAnimViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,9 @@
 		3FC6EFB221C9D78000E81971 /* AnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				3FC6EFEB21CA155C00E81971 /* VC */,
+				3FC6EFE921C9F26600E81971 /* NavController.h */,
+				3FC6EFE821C9F26500E81971 /* NavController.m */,
 				3FC6EFB321C9D78000E81971 /* AppDelegate.h */,
 				3FC6EFB421C9D78000E81971 /* AppDelegate.m */,
 				3FC6EFB621C9D78000E81971 /* ViewController.h */,
@@ -130,6 +151,23 @@
 				3FC6EFD921C9D78400E81971 /* Info.plist */,
 			);
 			path = AnimationTestUITests;
+			sourceTree = "<group>";
+		};
+		3FC6EFEB21CA155C00E81971 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6EFEC21CA157200E81971 /* BasicAnimController.h */,
+				3FC6EFED21CA157200E81971 /* BasicAnimController.m */,
+				3FC6EFEF21CA330500E81971 /* KeyframeAnimation.h */,
+				3FC6EFF021CA330500E81971 /* KeyframeAnimation.m */,
+				3FC6EFF221CA398F00E81971 /* DrawLineController.h */,
+				3FC6EFF321CA398F00E81971 /* DrawLineController.m */,
+				3FC6EFF521CA40D300E81971 /* TransitionViewController.h */,
+				3FC6EFF621CA40D300E81971 /* TransitionViewController.m */,
+				3FC6EFF821CA41E900E81971 /* SpringAnimViewController.h */,
+				3FC6EFF921CA41E900E81971 /* SpringAnimViewController.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC6EFB821C9D78000E81971 /* ViewController.m in Sources */,
+				3FC6EFEE21CA157200E81971 /* BasicAnimController.m in Sources */,
+				3FC6EFF121CA330500E81971 /* KeyframeAnimation.m in Sources */,
+				3FC6EFFA21CA41E900E81971 /* SpringAnimViewController.m in Sources */,
 				3FC6EFC321C9D78300E81971 /* main.m in Sources */,
 				3FC6EFB521C9D78000E81971 /* AppDelegate.m in Sources */,
+				3FC6EFF421CA398F00E81971 /* DrawLineController.m in Sources */,
+				3FC6EFEA21C9F26600E81971 /* NavController.m in Sources */,
+				3FC6EFF721CA40D300E81971 /* TransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

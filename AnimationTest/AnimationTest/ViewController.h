@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong)UITableView *mainTable;
+
+@property(nonatomic,strong)NSArray *titleArr;
+
+@property(nonatomic,strong)NSArray *sectionTitleArr;
+
 
 @end
 
