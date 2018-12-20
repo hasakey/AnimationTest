@@ -35,6 +35,7 @@
     
     
     UIButton *btn = [UIButton new];
+    btn.backgroundColor = [UIColor blueColor];
     btn.frame = CGRectMake(0, 0, 50, 40);
     btn.center = CGPointMake(375/2, 640);
     [btn setTitle:@"动画" forState:UIControlStateNormal];
@@ -61,6 +62,15 @@
 
 
 
+-(void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+{
+    self.index = (self.index < self.animArr.count - 1)?self.index+1:0;
+    if (flag) {
+        [self btnAction];
+    }
+
+}
+
 #pragma mark    懒加载
 -(UILabel *)transitionLab
 {
@@ -80,8 +90,8 @@
                      @"pageCurl",
                      @"pageUnCurl",
                      @"oglFlip",
-                     @"cameraIrisHollowOpen",
-                     @"cameraIrisHollowClose",
+//                     @"cameraIrisHollowOpen",
+//                     @"cameraIrisHollowClose",
                      @"spewEffect",
                      @"genieEffect",
                      @"unGenieEffect",

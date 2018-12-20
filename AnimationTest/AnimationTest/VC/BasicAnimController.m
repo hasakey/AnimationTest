@@ -24,6 +24,7 @@
     rorationViewX.frame = CGRectMake(20, 100, 70, 70);
     rorationViewX.backgroundColor = [UIColor redColor];
     [self.view addSubview:rorationViewX];
+    
     CABasicAnimation *rotationAnimX = [CABasicAnimation animationWithKeyPath:@"transform.rotation.x"];
     rotationAnimX.beginTime = 0.0;
     rotationAnimX.toValue = @(M_PI * 2);

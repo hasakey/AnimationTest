@@ -21,6 +21,7 @@
 		3FC6EFF421CA398F00E81971 /* DrawLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFF321CA398F00E81971 /* DrawLineController.m */; };
 		3FC6EFF721CA40D300E81971 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFF621CA40D300E81971 /* TransitionViewController.m */; };
 		3FC6EFFA21CA41E900E81971 /* SpringAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6EFF921CA41E900E81971 /* SpringAnimViewController.m */; };
+		3FD9DFED21CB2AB300FFCF60 /* WaterWaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9DFEC21CB2AB300FFCF60 /* WaterWaveController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		3FC6EFF621CA40D300E81971 /* TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 		3FC6EFF821CA41E900E81971 /* SpringAnimViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringAnimViewController.h; sourceTree = "<group>"; };
 		3FC6EFF921CA41E900E81971 /* SpringAnimViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringAnimViewController.m; sourceTree = "<group>"; };
+		3FD9DFEB21CB2AB300FFCF60 /* WaterWaveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterWaveController.h; sourceTree = "<group>"; };
+		3FD9DFEC21CB2AB300FFCF60 /* WaterWaveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterWaveController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				3FC6EFF621CA40D300E81971 /* TransitionViewController.m */,
 				3FC6EFF821CA41E900E81971 /* SpringAnimViewController.h */,
 				3FC6EFF921CA41E900E81971 /* SpringAnimViewController.m */,
+				3FD9DFEB21CB2AB300FFCF60 /* WaterWaveController.h */,
+				3FD9DFEC21CB2AB300FFCF60 /* WaterWaveController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				3FC6EFFA21CA41E900E81971 /* SpringAnimViewController.m in Sources */,
 				3FC6EFC321C9D78300E81971 /* main.m in Sources */,
 				3FC6EFB521C9D78000E81971 /* AppDelegate.m in Sources */,
+				3FD9DFED21CB2AB300FFCF60 /* WaterWaveController.m in Sources */,
 				3FC6EFF421CA398F00E81971 /* DrawLineController.m in Sources */,
 				3FC6EFEA21C9F26600E81971 /* NavController.m in Sources */,
 				3FC6EFF721CA40D300E81971 /* TransitionViewController.m in Sources */,

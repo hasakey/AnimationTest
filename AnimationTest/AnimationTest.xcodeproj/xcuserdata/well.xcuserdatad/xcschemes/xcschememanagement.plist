@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>AnimationTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3FC6EFAF21C9D78000E81971</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3FC6EFC721C9D78400E81971</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3FC6EFD221C9D78400E81971</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

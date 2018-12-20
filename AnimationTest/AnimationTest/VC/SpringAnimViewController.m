@@ -32,7 +32,8 @@
         spring.toValue = @(label.layer.position.x + 100);
         spring.autoreverses = true;
         spring.repeatCount = HUGE;
-        spring.duration = spring.settlingDuration;
+//        spring.duration = spring.settlingDuration;
+        spring.duration = 1;
         [label.layer addAnimation:spring forKey:@"spring"];
     } else {
         // Fallback on earlier versions
